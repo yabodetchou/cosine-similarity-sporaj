@@ -17,7 +17,7 @@ class CosineSim:
 
     @staticmethod
     def random_wiki_articles():
-        num_of_articles = 400
+        num_of_articles = 500
         generate_random_articles = wikipedia.random(num_of_articles)
         retrieve_titles = []
         retrieve_contents = []
